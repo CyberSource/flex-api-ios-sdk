@@ -31,7 +31,7 @@ Please initialize environment to use and merchant details before creating captur
 
 ### Create capture context
 Please refer sample application which demonstrates creation of Capture context  
-[Sample App](TBD) 
+[Sample App](https://github.com/CyberSource/flex-v2-ios-sample) 
 
 ```swift
         let captureContext = createCaptureContext()
@@ -84,4 +84,4 @@ Your server constructs a transaction request using the [Cybersource API](https:/
 ```
 ## Sample Application
 We have a sample application which demonstrates the SDK usage:  
-[Sample App](TBD) 
+[Sample App](https://github.com/CyberSource/flex-v2-ios-sample) 
