@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Cybersource" => "www.cybersource.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "https://github.com/CyberSource/flex-api-ios-sdk.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/CyberSource/flex-api-ios-sdk.git" }
 
   # spec.source       = { :git => "http://EXAMPLE/flex-api-ios-sdk.git", :tag => "#{spec.version}" }
   spec.source_files  = "flex-api-ios-sdk/**/*.{h,m,swift,modulemap}"
