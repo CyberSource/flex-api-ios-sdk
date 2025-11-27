@@ -30,13 +30,8 @@ Please initialize environment to use and merchant details before creating captur
 ```
 
 ### Create capture context
-Please refer sample application which demonstrates creation of Capture context  
-[Sample App](https://github.com/CyberSource/flex-v2-ios-sample) 
 
-```swift
-        let captureContext = createCaptureContext()
-```
-Create capture context uses HTTP Signature Authentication, please refer sample application to know how to create  HTTP Signature and digest. For more information refer [HTTP Signature Authentication](https://developer.cybersource.com/api/developer-guides/dita-gettingstarted/authentication/GenerateHeader/httpSignatureAuthentication.html)
+Create capture context uses HTTP Signature Authentication. For more information refer [HTTP Signature Authentication](https://developer.cybersource.com/api/developer-guides/dita-gettingstarted/authentication/GenerateHeader/httpSignatureAuthentication.html)
 
 ### Initialize the SDK and create transient token using capture context
 ```swift
@@ -82,6 +77,3 @@ Your server constructs a transaction request using the [Cybersource API](https:/
   }
 }
 ```
-## Sample Application
-We have a sample application which demonstrates the SDK usage:  
-[Sample App](https://github.com/CyberSource/flex-v2-ios-sample) 
